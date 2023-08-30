@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_duration_durations",
+  "info": {
+    "displayName": "duration"
+  },
+  "options": {},
+  "attributes": {
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    }
+  }
+}

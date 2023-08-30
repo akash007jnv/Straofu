@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_schedules_schedules",
+  "info": {
+    "displayName": "Schedules"
+  },
+  "options": {},
+  "attributes": {
+    "subjects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::subject.subject"
+    },
+    "pdfUrl": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

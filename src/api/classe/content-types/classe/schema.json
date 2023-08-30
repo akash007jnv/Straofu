@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "classes",
+  "info": {
+    "singularName": "classe",
+    "pluralName": "classes",
+    "displayName": "chapter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CLasse": {
+      "type": "string"
+    },
+    "Subject": {
+      "displayName": "Subject",
+      "type": "component",
+      "repeatable": true,
+      "component": "subjectd.subject"
+    },
+    "course": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::course.course"
+    }
+  }
+}

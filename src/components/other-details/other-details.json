@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_other_details_other_details",
+  "info": {
+    "displayName": "Other Details"
+  },
+  "options": {},
+  "attributes": {
+    "details": {
+      "type": "string"
+    }
+  }
+}

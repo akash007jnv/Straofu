@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_course_description_course_descriptions",
+  "info": {
+    "displayName": "courseDescription",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "thisBatchInclude": {
+      "type": "string",
+      "required": true
+    },
+    "BatchInclude": {
+      "displayName": "batchInclude",
+      "type": "component",
+      "repeatable": false,
+      "component": "batch-include.batch-include"
+    },
+    "Duration": {
+      "displayName": "duration",
+      "type": "component",
+      "repeatable": false,
+      "component": "duration.duration"
+    },
+    "validity": {
+      "type": "string"
+    },
+    "FreequentyAskedQues": {
+      "displayName": "FAQ",
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.faq"
+    },
+    "OthersDetail": {
+      "displayName": "Other Details",
+      "type": "component",
+      "repeatable": true,
+      "component": "other-details.other-details"
+    },
+    "Sedules": {
+      "displayName": "Schedules",
+      "type": "component",
+      "repeatable": true,
+      "component": "schedules.schedules"
+    },
+    "KnowYourTeacher": {
+      "displayName": "Know Your Teacher",
+      "type": "component",
+      "repeatable": true,
+      "component": "know-your-teacher.know-your-teacher"
+    }
+  }
+}

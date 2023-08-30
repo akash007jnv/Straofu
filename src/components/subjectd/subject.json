@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_subjectd_subjects",
+  "info": {
+    "displayName": "Subject",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subject": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::subject.subject"
+    },
+    "Chapter": {
+      "type": "component",
+      "repeatable": true,
+      "component": "clases.classes"
+    },
+    "SubjectName": {
+      "type": "string"
+    }
+  }
+}

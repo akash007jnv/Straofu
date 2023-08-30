@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_know_your_teacher_know_your_teachers",
+  "info": {
+    "displayName": "Know Your Teacher"
+  },
+  "options": {},
+  "attributes": {
+    "teacher": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::teacher.teacher"
+    },
+    "subject": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::subject.subject"
+    }
+  }
+}

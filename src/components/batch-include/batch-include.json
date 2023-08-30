@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_batch_include_batch_includes",
+  "info": {
+    "displayName": "batchInclude"
+  },
+  "options": {},
+  "attributes": {
+    "recordedLecturesNo": {
+      "type": "integer"
+    },
+    "quizesDPP": {
+      "type": "integer"
+    },
+    "tests": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_clases_classes",
+  "info": {
+    "displayName": "Classes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Video": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "Notes": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "DPP": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "UploadDate": {
+      "type": "date"
+    }
+  }
+}

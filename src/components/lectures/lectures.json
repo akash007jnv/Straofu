@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_lectures_lectures",
+  "info": {
+    "displayName": "Lectures",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Class": {
+      "type": "component",
+      "repeatable": true,
+      "component": "clases.classes"
+    }
+  }
+}
